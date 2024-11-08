@@ -1,0 +1,99 @@
+.circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.azul{
+    background-color: #60b2ff;
+    width: 100%;
+    height: 600px;
+}
+
+.triangulo{
+    width: 0px;
+    height: 0px;
+    border-left:60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 110px solid #a76f2183;
+    position: absolute;
+    left: -8px;
+    top: -110px;
+  }
+
+  .suelo{
+    position: relative;
+    top: 5px;
+  }
+
+.amarillo{
+    background-color: #ffff00;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50px
+}
+
+.base{
+    background-color: #be9879;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    left: 800px;
+    top: 448px;
+}
+
+.ventana{
+    background-color: #60b2ff;
+    border: black;
+    border-style: solid;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.ventana2{
+    background-color: #60b2ff;
+    border: black;
+    border-style: solid;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.puerta{
+    background-color: #806c357a;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 110px;
+    left: 35px;
+}
+
+.pie{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    background-color: black;
+}
+
+.img{
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+.img2{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
