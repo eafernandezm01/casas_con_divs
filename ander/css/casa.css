@@ -1,0 +1,202 @@
+@keyframes ciclo {
+    0%   {background-image: url("../img/sol.jpg");}
+    25%  {background-image: url("../img/luna.jpg");}
+  }
+
+  @keyframes ciclo2 {
+    0%   {background-image: url("../img/cielo.gif");}
+    25%  {background-image: url("../img/stars.gif");}
+  }
+
+  @keyframes fly {
+    0%   {position: absolute; left: -20%;}
+    25%  {position: absolute; left: 120%;}
+  }
+  
+
+.cielo {
+    background-color: skyblue;
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/cielo.gif");
+    background-size: contain;
+    animation-name: ciclo2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.super {
+    width: 150px;
+    height: 100px;
+    background-image: url("../img/super.png");
+    background-size: contain;
+    animation-name: fly;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: -20%;
+}
+
+.sol {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-image: url("../img/sol.jpg");
+    background-size:cover;
+    animation-name: ciclo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.trump {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url("../img/trump.png");
+    background-size: cover;
+    top: 500px;
+    left: 150px;
+}
+
+iframe {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+}
+
+video {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.jesus {
+    width: 100px;
+    height: 185px;
+    position: absolute;
+    background-image: url("../img/jesus.gif");
+    background-size: contain;
+    top: 428px;
+    right: 150px;
+}
+
+.casa {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(240, 160, 136);
+    position: absolute;
+    top: 300px;
+    left: 40%;
+}
+
+.puerta {
+    height: 120px;
+    width: 80px;
+    background-color: brown;
+    position: absolute;
+    top: 180px;
+    left: 35%;
+}
+
+.eminem {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url("../img/eminem.png");
+    background-size: cover;
+    top: -82px;
+    left: 130px;
+}
+
+.ventana1 {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-image: url("../img/sanchez.png");
+    background-size:cover;
+}
+
+.ventana2 {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    background-image: url("../img/plato.png");
+    background-size:cover;
+}
+
+.tejado {
+    height: 100px;
+    width: 350px;
+    background-color: brown;
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    border-radius: 500px 500px 0px 0px;
+}
+
+.chimenea {
+    background-color: rgb(92, 92, 92);
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: -80px;
+    left: 90px;
+}
+
+.tierra {
+    background-image:url("../img/minecrah.png") ;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 510px;
+    left: 60%;
+}
+
+.adolfo {
+    background-image:url("../img/adolfo.png") ;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -90px;
+    left: -6%;
+}
+
+.humo {
+    background-image: url("../img/humo.png");
+    background-size: contain;
+    width: 70px;
+    height: 200px;
+    position: absolute;
+    top: -200px;
+    left: -13px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../img/beso.jpg");
+    background-size:100% 500px;
+}
