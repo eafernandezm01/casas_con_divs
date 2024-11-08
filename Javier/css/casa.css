@@ -1,0 +1,247 @@
+.div{
+    background-color: hsl(180, 31%, 51%);
+}
+
+.franga{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+
+}
+body{
+    margin: 0px;
+}
+
+.circulo{
+    border-radius: 50%;
+    background-color: gold;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.casa{
+    width: 150px;
+    height: 180px;
+    background-color: burlywood;
+    position: absolute;
+    top: 420px;
+    left: 700px;
+}
+
+.puerta{
+    background-color: #74562e;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 540px;
+    left: 757px;
+}
+
+.ventana{
+    background-color: white;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 720px;
+    top: 460px;
+    border: solid;
+}
+
+.ventana2{
+    background-color: white;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 800px;
+    top: 460px;
+    border: solid;
+}
+.pie{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    top: 170px;
+}
+
+.triangulo{
+    height: 0px;
+    width: 50px;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    position: absolute;
+    bottom: 418px;
+    left: 700px;
+}
+
+.pies{
+    background-color: gray;
+    position: absolute;
+    left: 1300px;
+    width: 60px;
+    height: 20px;
+    bottom: 238px;
+}
+
+.pierna{
+    background-color: blue;
+    position: absolute;
+    left: 1300px;
+    width: 60px;
+    height: 100px;
+    bottom: 258px;
+}
+
+.torso{
+    background-color: #6de4e4;
+    position: absolute;
+    left: 1300px;
+    bottom: 320px;
+    width: 60px;
+    height: 100px;
+    bottom: 350px;
+
+}
+
+.hombro1{
+    background-color: #6de4e4;
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    left: 1260px;
+    bottom: 400px;
+}
+
+.hombro2{
+    background-color: #6de4e4;
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    left: 1360px;
+    bottom: 400px;
+}
+
+.brazo{
+    background-color: #c4a47a;
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    left: 1360px;
+    bottom: 340px;
+}
+
+.brazo2{
+    background-color: #c4a47a;
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    left: 1260px;
+    bottom: 340px;
+}
+
+.cabeza{
+    background-color: #c4a47a;
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: 1295px;
+    bottom: 450px;
+}
+
+.pelo{
+    background-color: #74562e;
+    position: absolute;
+    left: 1295px;
+    width: 70px;
+    height: 20px;
+    bottom: 510px;
+}
+
+.bloqueblanco{
+    background-color: #fff;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 1300px;
+    bottom: 485px;
+}
+
+.pupila{
+    background-color: blue;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 1311px;
+    bottom: 485px;
+}
+
+.pupila2{
+    background-color: blue;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 1340px;
+    bottom: 485px;
+}
+
+.bloqueblanco2{
+    background-color: #fff;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 1350px;
+    bottom: 485px;
+}
+
+.boca{
+    background-color: #74562e;
+    position: absolute;
+    height: 10px;
+    width: 40px;
+    left: 1311px;
+    bottom: 465px;
+}
+
+.nariz{
+    background-color: hwb(35 19% 59%);
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    left: 1320px;
+    bottom: 475px;
+}
+
+.imagen{
+    position: absolute;
+    bottom: 250px;
+}
+
+.imagen2{
+    position: absolute;
+    left: 1500px;
+}
+
+.nube{
+    position: absolute;
+    left: 400px;
+    bottom: 600px;
+}
+
+.nube2{
+    position: absolute;
+    left: 1000px;
+    bottom: 600px;
+}
+
+.nuevo{
+    position: fixed;
+    bottom: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    padding-left: 1700px;
+}
